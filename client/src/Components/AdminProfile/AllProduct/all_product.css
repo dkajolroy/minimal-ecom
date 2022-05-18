@@ -1,0 +1,9 @@
+.add_product__ui .grid_icons span {
+    font-size: 25px;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.add_product__ui .grid_icons span:hover {
+    color: #000;
+}

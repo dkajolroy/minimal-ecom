@@ -1,0 +1,31 @@
+.admin__dashboard {
+    height: 92vh;
+}
+
+.admin__dashboard .side_bar {
+    background: brown;
+    position: relative;
+}
+
+.admin__dashboard ul li {
+    padding: 8px 0 8px 20px;
+    font-weight: 400;
+    border-top: 1px solid black;
+    font-size: 18px;
+    color: #0eb2d7;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.admin__dashboard ul li:hover {
+    background-color: black;
+    color: #fff;
+    padding: 8px 0 8px 25px;
+}
+
+.admin__dashboard .user_logout_profile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
